@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	//background: #222;
+	z-index: 10;
+}
+
+.header .navbar-brand {
+	font-weight: 900;
+}
+
+.header .navbar {
+	margin: 0;
+	border: none;
+}
+
+.page-section {
+	width: 100%;
+	min-height: 800px;
+	padding: 50px 0;
+	border-bottom: 10px solid #fff;
+}
+
+.page-section h1 {
+	font-size: 4em;
+	margin: 50px 0;
+}
+
+.page-section h1 span {
+	font-weight: 200;
+}
+
+.page-section h2 {
+	font-size: 3em;
+	font-weight: 900;
+	color: #fff;
+	margin: 0 0 30px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.page-section p {
+	font-size: 1.2em;
+	font-weight: 200;
+	margin: 0 25% 20px 0;
+}
+
+.page-section h3 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.page-section p.lead {
+	font-size: 1.8em;
+}
+
+.page-section p.caption {
+	color: #fff;
+	padding: 20px;
+  margin: auto;
+	text-shadow: 1px 1px 1px #000;
+}
+
+form {
+	color: #fff;
+}
+
+.page-section#top {
+	background: url("https://i.imgur.com/XL5GJdk.jpg") bottom center no-repeat;
+  background-size: 2000px 1100px;
+}
+
+.page-section#about {
+	background: url("https://i.imgur.com/Ag1mRW6.jpg") bottom center no-repeat;
+	background-size: 2000px 1300px;
+}
+
+.page-section#ministries {
+	background: url("https://i.imgur.com/uFwtIfo.jpg")top center no-repeat;
+  background-size: 2000px 1300px;
+}
+
+.page-section#giving {
+	background: url("https://i.imgur.com/xr8ZA9p.jpg") top center no-repeat;
+  background-size: 2000px 1300px;
+}
+
+.page-section#school {
+	background: url("https://i.imgur.com/8DAej0k.jpg") no-repeat;
+  background-size: 2000px 1200px;
+}
+
+.page-section#intern {
+	background: url("https://i.imgur.com/ieOEden.jpg") top center no-repeat;
+	background-size: 2000px 1200px;
+}
+
+.page-section#contact{
+	background: url("https://i.imgur.com/0Y80rL3.jpg") top center no-repeat;
+	background-size: 2000px 1200px;
+}
+
+@media (min-width: 768px) {
+	.header .navbar-brand {
+		padding-left: 0;
+	}
+	.navbar-nav {
+		float: right;
+	}
+}
+@media (max-width: 480px) {
+	.page-section h1 {
+		font-size: 3em;
+	}
+	.page-section h2 {
+		font-size: 2em;
+	}
+	.page-section p {
+		font-size: 1em;
+		margin: 0 0 20px;
+	}
+}
